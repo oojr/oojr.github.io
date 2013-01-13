@@ -3,7 +3,9 @@
    ========================================================================== */
 
 
-
+body{
+    background-image: url(../images/wild_oliva.png);
+}
 
 
 ::-moz-selection {
@@ -59,18 +61,19 @@ fieldset {
    =================== */
 
 .header-container {
-    border-bottom: 20px solid #e44d26;
+    
+    margin-bottom: 20px;
 }
 
 .footer-container,
 .main aside {
-    border-top: 20px solid #e44d26;
+    
 }
 
 .header-container,
 .footer-container,
 .main aside {
-    background: #f16529;
+    background: #222222;
 }
 
 .title {
