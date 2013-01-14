@@ -12,7 +12,24 @@
 /* -----------------------------------------
    Shared Styles
 ----------------------------------------- */
-
+.circular {
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url(../images/me.png) no-repeat;
+	box-shadow: 0 0 30px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 30px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 30px rgba(0, 0, 0, .8); 
+	-webkit-filter: grayscale(100%); 
+    -moz-filter: grayscale(100%);  
+	}
+.circular:hover {  
+    -webkit-transition: -webkit-filter 1s;
+    -webkit-filter: grayscale(0);
+    -moz-filter: grayscale(0);
+} 
 
 
 /* -----------------------------------------
