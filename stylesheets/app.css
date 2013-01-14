@@ -30,7 +30,9 @@
     -webkit-filter: grayscale(0);
     -moz-filter: grayscale(0);
 } 
-
+.greeting{
+	font-size: 19px;
+}
 
 /* -----------------------------------------
    Page Name 1
