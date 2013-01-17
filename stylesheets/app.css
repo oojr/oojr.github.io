@@ -53,8 +53,14 @@
 
 h5,h6, p{
   font-family: source-sans-pro;
+  color: #6f6f6f;
 }
-.sail{
+
+h4.sail{
   font-family: sail;
+  color: #6f6f6f;
+}
+.panel{
+  background-color: rgba(0,0,0,0.5);
 }
 
