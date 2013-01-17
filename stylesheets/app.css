@@ -64,3 +64,13 @@ h4.sail{
   background-color: rgba(0,0,0,0.5);
 }
 
+.button.secondary{
+  background-color: #8c8c8c;
+}
+
+a{
+  color:white;
+}
+a:hover{
+  color:whiteSmoke;
+}
