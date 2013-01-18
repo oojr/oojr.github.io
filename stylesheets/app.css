@@ -53,24 +53,39 @@
 
 h5,h6, p{
   font-family: source-sans-pro;
-  color: #6f6f6f;
+  color: white;
 }
+blockquote cite{
+  color:white;
+} 
+
+blockquote p{
+  color:white;
+} 
+
 
 h4.sail{
   font-family: sail;
-  color: #6f6f6f;
+  color: white;
 }
 .panel{
-  background-color: rgba(0,0,0,0.5);
+  background-color: #3d3d3d;
+   opacity:0.5;
+   filter:alpha(opacity=50);
+   border: solid 1px black;
 }
 
 .button.secondary{
   background-color: #8c8c8c;
 }
+.subheader{
+  color:#FAFAFA;
+}
 
 a{
-  color:white;
+  color:#87CEFA ;
+
 }
 a:hover{
-  color:whiteSmoke;
+  color:#B4CDCD;
 }
