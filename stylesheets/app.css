@@ -53,23 +53,23 @@
 
 h5,h6, p{
   font-family: source-sans-pro;
-  color: white;
+  color: black;
 }
 blockquote cite{
-  color:white;
+  color:black;
 } 
 
 blockquote p{
-  color:white;
+  color:black;
 } 
 
 
 h4.sail{
   font-family: sail;
-  color: white;
+  color: black;
 }
 .panel{
-  background-color: #3d3d3d;
+  background-color: #E0E0E0;
    opacity:0.5;
    filter:alpha(opacity=50);
    border: solid 1px black;
@@ -79,13 +79,13 @@ h4.sail{
   background-color: #8c8c8c;
 }
 .subheader{
-  color:#FAFAFA;
+  color:black;
 }
 
 a{
-  color:#87CEFA ;
+  color:#00009C ;
 
 }
 a:hover{
-  color:#B4CDCD;
+  color:#677AD9;
 }
