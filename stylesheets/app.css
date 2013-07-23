@@ -1,0 +1,91 @@
+/* Artfully masterminded by ZURB  */
+
+/* -------------------------------------------------- 
+   Table of Contents
+-----------------------------------------------------
+:: Shared Styles
+:: Page Name 1
+:: Page Name 2
+*/
+
+
+/* -----------------------------------------
+   Shared Styles
+----------------------------------------- */
+.circular {
+	width: 150px;
+	height: 150px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url(../images/me.png) no-repeat;
+	box-shadow: 0 0 30px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 30px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 30px rgba(0, 0, 0, .8); 
+	-webkit-filter: grayscale(100%); 
+    -moz-filter: grayscale(100%);  
+	}
+.circular:hover {  
+    -webkit-transition: -webkit-filter 1s;
+    -webkit-filter: grayscale(0);
+    -moz-filter: grayscale(0);
+} 
+.title{
+	text-shadow: 0 1px 0 #ccc, 
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+    text-transform: uppercase;
+
+}
+
+.source-sans{
+  font-family: source-sans-pro;
+}
+
+h5,h6, p{
+  font-family: source-sans-pro;
+  color: black;
+}
+blockquote cite{
+  color:black;
+} 
+
+blockquote p{
+  color:black;
+} 
+
+
+h4.sail{
+  font-family: sail;
+  color: black;
+}
+.panel{
+  background-color: #E0E0E0;
+   opacity:0.5;
+   filter:alpha(opacity=50);
+   border: solid 1px black;
+}
+
+.button.secondary{
+  background-color: #8c8c8c;
+}
+.subheader{
+  color:black;
+}
+
+a{
+  color:#00009C ;
+
+}
+a:hover{
+  color:#677AD9;
+}
