@@ -51,6 +51,7 @@ h2{
     opacity: 0;
     overflow: hidden;
     color: #2980B9;
+    -webkit-transform: translate3d(0, 0, 0);
     -webkit-animation: rotateWord 18s linear infinite 0s;
     -moz-animation: rotateWord 18s linear infinite 0s;
     -o-animation: rotateWord 18s linear infinite 0s;
