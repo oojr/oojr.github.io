@@ -22,8 +22,18 @@ color:#fff;
 .text-pad{
     padding:20px;
 }
+h1,h2,h3{
+    font-family: 'trackregular';
+    color:#ECF0F1;
+}
+h1{
+    font-size: 65px;
+}
 h2{
-    font-family: 'Lato';
+    font-size: 45px;
+}
+h3{
+    font-size: 30px;
 }
 .rw-wrapper{
     width: 80%;
